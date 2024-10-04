@@ -54,7 +54,7 @@ h1 {
     font-size: 2em; /* Taille plus grande pour les deux premières phrases */
     font-weight: bold; /* Mettre le texte en gras */
     margin: 0; /* Enlever les marges par défaut */
-    font-family: 'Yeseva One', cursive; /* Police plus originale */
+    font-family: 'Yeseva One'; /* Police plus originale */
 }
 
 .engagement {
