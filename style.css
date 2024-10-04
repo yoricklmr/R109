@@ -62,7 +62,7 @@ h1 {
     font-size: 1.5em; /* Taille par défaut */
     font-weight: bold; /* Mettre le texte en gras */
     margin-top: 10px; /* Un peu d'espace au-dessus */
-    font-family: 'Yeseva One', cursive; /* Utiliser la même police pour l'engagement */
+    font-family: 'Yeseva One'; /* Utiliser la même police pour l'engagement */
 }
 
 footer {
