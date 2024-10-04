@@ -8,14 +8,16 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Permet de séparer la barre de contenu */
     align-items: center;
     padding: 20px;
 }
 
 .header-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 100%; /* Occupe toute la largeur */
 }
 
 h1 {
@@ -37,20 +39,25 @@ h1 {
 .divider {
     height: 2px;
     background-color: white;
+    width: 100%; /* S'étend sur toute la largeur */
     margin-top: 10px;
 }
 
 .introduction {
     padding: 20px;
+    text-align: center; /* Centrer le texte */
 }
 
 .greeting, .description {
-    font-size: 1.5em; /* Taille plus grande pour les deux premières phrases */
+    font-size: 2em; /* Taille plus grande pour les deux premières phrases */
+    font-weight: bold; /* Mettre le texte en gras */
+    margin: 0; /* Enlever les marges par défaut */
 }
 
 .engagement {
     color: #00ff7f; /* Couleur vert slime */
-    font-size: 1.2em; /* Taille par défaut */
+    font-size: 1.5em; /* Taille par défaut */
+    font-weight: bold; /* Mettre le texte en gras */
     margin-top: 10px; /* Un peu d'espace au-dessus */
 }
 
