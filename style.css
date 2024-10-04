@@ -23,7 +23,7 @@ header {
 h1 {
     text-transform: uppercase;
     margin: 0;
-    font-size: 2em; /* Diminuer la taille de la police */
+    font-size: 1.5em; /* Diminuer la taille de la police */
 }
 
 .social-icons {
