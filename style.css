@@ -47,7 +47,7 @@ h1 {
 
 .introduction {
     padding: 20px;
-    text-align: center; /* Centrer le texte */
+    text-align: left; /* Aligner le texte à gauche */
 }
 
 .greeting, .description {
