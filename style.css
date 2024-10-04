@@ -2,25 +2,29 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #001f3f; /* Bleu très foncé */
-    color: #ffffff; /* Texte blanc pour contraster avec le fond */
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
 .gallery {
-    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
 }
 
 .grid img {
@@ -29,28 +33,19 @@ header {
     border-radius: 8px;
 }
 
-/* Masquer les images à partir de la dixième */
 .grid img:nth-child(n + 10) {
-    display: none;
+    display: none; /* Masque les images à partir de la 10ème */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
-    color: #fff;
+    background-color: #333;
+    color: white;
     position: relative;
     bottom: 0;
     width: 100%;
 }
-
-/* Media Queries pour les appareils mobiles */
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-}
-
 
 /* Media Queries */
 @media (max-width: 768px) {
