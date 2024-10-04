@@ -23,6 +23,7 @@ header {
 h1 {
     text-transform: uppercase;
     margin: 0;
+    font-size: 2em; /* Diminuer la taille de la police */
 }
 
 .social-icons {
@@ -52,6 +53,7 @@ h1 {
     font-size: 2em; /* Taille plus grande pour les deux premières phrases */
     font-weight: bold; /* Mettre le texte en gras */
     margin: 0; /* Enlever les marges par défaut */
+    font-family: 'Yeseva One', cursive; /* Police plus originale */
 }
 
 .engagement {
@@ -59,6 +61,7 @@ h1 {
     font-size: 1.5em; /* Taille par défaut */
     font-weight: bold; /* Mettre le texte en gras */
     margin-top: 10px; /* Un peu d'espace au-dessus */
+    font-family: 'Yeseva One', cursive; /* Utiliser la même police pour l'engagement */
 }
 
 footer {
